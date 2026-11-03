@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Study Agent</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1b1b18; --muted:#5b5b54; --line:#cfcfc6; --accent:#1f5fbf; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151512; --fg:#f1f0ea; --muted:#b0afa5; --line:#3d3d36; --accent:#7ab0ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:18px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:16px; }
+  h1 { font-size:1.6rem; } h2 { font-size:1.2rem; margin-top:1.6em; }
+  a { color:var(--accent); } nav { border-top:1px solid var(--line); margin-top:2em; padding-top:1em; color:var(--muted); font-size:.9rem; }
+  .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Study Agent</h1>
+<p>Study Agent là một ứng dụng cá nhân giúp một sinh viên tự quản lý việc học: mỗi sáng ứng dụng đọc danh sách bài tập và hạn nộp trên hệ thống học trực tuyến của trường, xếp các phiên ôn bài vào giờ trống trong Google Calendar, và tạo bộ câu hỏi trắc nghiệm ôn tập từ tài liệu bài giảng để làm trên điện thoại.</p>
+
+<h2>Ứng dụng làm gì</h2>
+<ul>
+  <li><strong>Đồng bộ lịch học:</strong> tạo các sự kiện "Ôn bài" trong Google Calendar của chủ tài khoản, vào giờ còn trống trước hạn nộp bài.</li>
+  <li><strong>Lưu bộ câu hỏi ôn tập:</strong> ghi các file kết quả (lịch trong ngày và bộ câu hỏi) vào một thư mục riêng tên <em>StudyAgent</em> trong Google Drive của chủ tài khoản, để mở trên điện thoại.</li>
+  <li><strong>Chấm điểm trên máy:</strong> trang làm quiz chạy hoàn toàn trên trình duyệt của người dùng, không gửi dữ liệu đi đâu.</li>
+</ul>
+
+<h2>Ai dùng ứng dụng</h2>
+<p>Ứng dụng chỉ phục vụ cá nhân người phát triển, không cung cấp cho người dùng khác và không thu thập dữ liệu của ai ngoài chủ tài khoản.</p>
+
+<h2>Quyền truy cập Google</h2>
+<p>Ứng dụng chỉ xin hai quyền: tạo và sửa sự kiện trong Google Calendar, và quản lý các file do chính ứng dụng tạo ra trong Google Drive. Chi tiết xem tại <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
+
+<nav><a href="index.html">Trang chủ</a> · <a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="terms.html">Điều khoản sử dụng</a></nav>
+</main>
+</body>
+</html>

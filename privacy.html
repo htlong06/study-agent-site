@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư · Study Agent</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1b1b18; --muted:#5b5b54; --line:#cfcfc6; --accent:#1f5fbf; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151512; --fg:#f1f0ea; --muted:#b0afa5; --line:#3d3d36; --accent:#7ab0ff; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:18px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:42rem; margin:0 auto; padding:16px; }
+  h1 { font-size:1.6rem; } h2 { font-size:1.2rem; margin-top:1.6em; }
+  a { color:var(--accent); } nav { border-top:1px solid var(--line); margin-top:2em; padding-top:1em; color:var(--muted); font-size:.9rem; }
+  .muted { color:var(--muted); }
+</style>
+</head>
+<body>
+<main>
+<h1>Chính sách quyền riêng tư</h1>
+<p class="muted">Cập nhật lần cuối: 03/11/2026</p>
+<p>Study Agent là ứng dụng cá nhân do một người phát triển (tài khoản GitHub <em>htlong06</em>) tạo ra để tự dùng. Trang này mô tả ứng dụng truy cập, sử dụng, lưu trữ và chia sẻ dữ liệu Google như thế nào.</p>
+
+<h2>Dữ liệu Google mà ứng dụng truy cập</h2>
+<ul>
+  <li><strong>Google Calendar</strong> (quyền <code>calendar.events</code>): đọc các khoảng giờ bận trong lịch để tránh xếp trùng, và tạo các sự kiện ôn bài. Ứng dụng chỉ sửa hoặc xóa những sự kiện do chính nó tạo ra.</li>
+  <li><strong>Google Drive</strong> (quyền <code>drive.file</code>): tạo và cập nhật các file do chính ứng dụng tạo trong thư mục <em>StudyAgent</em> (lịch trong ngày và bộ câu hỏi ôn tập). Ứng dụng không xem được các file khác trong Drive.</li>
+</ul>
+
+<h2>Cách sử dụng dữ liệu</h2>
+<p>Dữ liệu chỉ được dùng để xếp lịch ôn bài và lưu bộ câu hỏi cho chính chủ tài khoản. Ứng dụng không dùng dữ liệu cho quảng cáo, không bán, không cho thuê và không cho bên thứ ba.</p>
+
+<h2>Lưu trữ và bảo mật</h2>
+<ul>
+  <li>Dữ liệu nằm trong Google Calendar và Google Drive của chính chủ tài khoản. Ứng dụng không có máy chủ riêng và không lưu bản sao ở nơi nào khác.</li>
+  <li>Mã thông báo truy cập (token) được lưu dưới dạng secret trong một kho mã riêng tư của chủ tài khoản, không công khai.</li>
+</ul>
+
+<h2>Chia sẻ dữ liệu</h2>
+<p>Ứng dụng không chia sẻ dữ liệu Google với bất kỳ ai. Việc sử dụng và chuyển dữ liệu nhận từ Google APIs tuân thủ <a href="https://developers.google.com/terms/api-services-user-data-policy">Chính sách dữ liệu người dùng của Google API Services</a>, bao gồm các yêu cầu về Sử dụng giới hạn (Limited Use).</p>
+
+<h2>Thu hồi quyền và xóa dữ liệu</h2>
+<p>Chủ tài khoản có thể thu hồi quyền bất cứ lúc nào tại <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>, và xóa thư mục <em>StudyAgent</em> cùng các sự kiện "Ôn bài" trong Drive và Calendar của mình.</p>
+
+<h2>Liên hệ</h2>
+<p>Mở một issue tại <a href="https://github.com/htlong06/study-agent-site/issues">github.com/htlong06/study-agent-site/issues</a>.</p>
+
+<nav><a href="index.html">Trang chủ</a> · <a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="terms.html">Điều khoản sử dụng</a></nav>
+</main>
+</body>
+</html>
